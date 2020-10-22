@@ -1,0 +1,228 @@
+// Todos mis imports
+@import 'variables';
+@import 'global';
+
+h1{
+	color: #FFDA22;
+	float: left;
+    text-align: center;
+    display: block;
+    background-color:#28252C; 
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    position: fixed;
+    z-index: 1040;
+}
+h1 a{
+	text-align: center;
+}
+h1 a:hover{
+	text-decoration: none;
+	color: #FFDA22;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.contenedor:before{
+	content:'';
+	position: absolute;
+    top: 450px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: linear-gradient(to top, black, rgba(0,0,0,0.55));
+
+}
+.texto-encima{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    font-family: "Bebas Neue";
+    font-size: 60px;
+    text-align: left;
+    color: #FFDA22;
+    font-style: bolder;
+}
+.texto-encima a{
+	text-decoration: underline;
+}
+header img{
+	width: 100%;
+}
+header p{
+	text-align: right;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCFF;
+}
+a{
+	color: unset;
+	text-decoration: none;
+	
+}
+#menu{
+	background-color: #28252C;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	text-align: right;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: #FFDA22;
+	display: block;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-family: 'Bebas Neue';
+	font-size: 22px;
+}
+#menu ul li a:hover{
+	background-color: #FFDA22;
+	color: #28252C;
+}
+
+.titulos{
+	text-align: center;
+	font-family: 'Bebas Neue';
+	color: black;
+	font-weight: bolder;
+	font-size: 60px;
+	background-color: #FFFCFF;
+	padding-top: 50px;
+
+}
+p{
+	color: black;
+}
+h3{
+	color: black;
+}
+p{
+	font-family: 'Bebas Neue';
+}
+h3{
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.juegos .imagenes img{
+	width: 350px;
+	height: 220px;
+	transition: 0.3s;
+}
+.juegos .imagenes img:hover{
+	transform: scale(1.03,1.03);
+
+}
+#section-juegos h2{
+	padding-bottom: 30px;
+}
+#section-juegos{
+	padding-top: 73px;
+	padding-bottom: 57px;
+}
+
+#section-integrantes{
+	background-color: #FFDA22;
+	padding-top: 73px;
+}
+#section-integrantes h2{
+	background-color: #FFDA22;
+	margin-bottom: 0;
+
+}
+#section-integrantes div{
+	display: inline-block;
+	text-align: center;
+	margin: 27px;  
+}
+#section-integrantes img{
+	width: 280px;
+}
+.imagenes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.descripcionImagenes {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	font-size: 30px;	
+}
+.descripcionImagenes p{
+	display: block;
+	align-self: auto;
+	margin-right: 18px;
+	padding-top: 30px;
+}
+.playerCard{
+	width: 279px;
+	transition: all 0.3s;
+}
+.playerCard:hover{
+	transform: scale(1.1,1.1);
+}
+
+#section-competencias h2{
+	background-color: #28252C;
+	color: #FFDA22;
+}
+#section-competencias{
+	background-color: #28252C;
+	padding-top: 73px;
+}
+.table{
+	margin-bottom: 0;
+}
+#section-videos{
+	background-color: #FFDA22;
+	padding-top: 73px;
+}
+#section-videos h2{
+	background-color: #FFDA22;
+	padding-bottom: 30px;
+}
+@media (max-width: 767px) {
+    .top-content .carousel-control-prev, 
+    .top-content .carousel-control-next { display: none; }
+    .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
+}
+.carousel-control-prev{
+	left: -150px;
+}
+.carousel-control-next{
+	left: 900px;
+}
+#section-contacto form{
+	font-family: 'Bebas Neue';
+	font-size: 22px;
+}
+#section-contacto{
+	padding-top: 73px;
+}
+
+footer p{
+	font-family: 'Bebas Neue';
+	text-align: center;
+	background-color: #28252C;
+	color: #FFDA22;
+	margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+ }
